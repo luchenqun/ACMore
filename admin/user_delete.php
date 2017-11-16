@@ -1,0 +1,1 @@
+<?php	session_start();	require_once("../include/mysql.inc.php");	require_once("../include/func.inc.php");	$mysql = new MySql();/*	$userNo = $_GET['userNo'];	$pwd = md5(rand(1, 99999999));	$sql="UPDATE user SET userPwd = '$pwd' WHERE userNo = '$userNo'";	$mysql->query($sql);*/	$msg = "该操作过于危险，考虑再三，测试期间暂时屏蔽该功能";	alter($msg, "train_manage.php");?>

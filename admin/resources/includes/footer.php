@@ -1,0 +1,1 @@
+		<div id="footer" style="height:400px"><center><small>&#169; Copyright 2012 CSUST | ÍøÒ³Éè¼Æ <a href="http://user.qzone.qq.com/530485521/" target="_blank">Â¬³»Èº</a></small></center></div>

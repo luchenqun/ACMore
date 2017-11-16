@@ -1,0 +1,1 @@
+<?php	session_start();	require_once("../include/mysql.inc.php");    require_once("../include/func.inc.php");	$mysql = new MySql();  	$userNo = $_GET["userNo"];	$sql = "DELETE FROM acmer WHERE userNo = '$userNo'";	$mysql->query($sql);	alter("É¾³ý³É¹¦£¡", "good_acmer_manage.php");?>

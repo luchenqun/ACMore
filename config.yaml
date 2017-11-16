@@ -1,0 +1,5 @@
+name: testacmore
+version: 20120603
+handle:
+- errordoc:  404 /home/404.html
+- errordoc:  404 /../home/404.html
